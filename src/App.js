@@ -2,7 +2,7 @@ import Stopwatch from "./Stopwatch";
 
 function App() {
   return (
-    <div className="App">
+    <div >
      <Stopwatch />
     </div>
   );
