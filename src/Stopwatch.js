@@ -29,16 +29,16 @@ function Stopwatch() {
   }, [isRunning]);
 
   return (
-    <div style={{ padding: "20px"}}>
+    <div style={{ padding: "20px" }}>
       <h1>Stopwatch</h1>
       <p style={{ fontSize: "25px" }}>
-        Time: {minutes.toString().padStart(2, "0")}:
+        Time: {minutes.toString()}:
         {seconds.toString().padStart(2, "0")}
       </p>
-      <button onClick={startAndStop} >
+      <button onClick={startAndStop}>
         {isRunning ? "Stop" : "Start"}
       </button>
-      <button onClick={reset} >
+      <button onClick={reset}>
         Reset
       </button>
     </div>
